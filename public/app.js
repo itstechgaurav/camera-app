@@ -16,7 +16,7 @@ class camera {
         let ops = {
             audio: false,
             video: {
-                facingMode: "environment",
+                facingMode: "user",
                 width: 200,
                 height: 200
             }
