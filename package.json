@@ -1,0 +1,22 @@
+{
+  "name": "cameraapp",
+  "version": "1.0.0",
+  "description": "a simple camera lab",
+  "main": "this.js",
+  "scripts": {
+    "start": "node this.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/myselfGroot/camera-app.git"
+  },
+  "author": "Gaurav Bhardwaj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/myselfGroot/camera-app/issues"
+  },
+  "homepage": "https://github.com/myselfGroot/camera-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

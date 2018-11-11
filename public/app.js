@@ -21,7 +21,6 @@ class camera {
                 height: 200
             }
         };
-        console.log(navigator);
         navigator.mediaDevices.getUserMedia(ops)
             .then(function (d) {
                 this.display.srcObject = d;
