@@ -11,8 +11,10 @@
     <h1 class="heading-sec text-center d-block p-2 bg-white">Camera</h1>
     <div class="row">
        <div class="col-12">
-           <div class="ripple btn btn-prime ion ion-camera ts-3" onclick="download(theVideo.snap())"></div>
-           <a id="dBtn" href="#" download="selfie" class="ripple btn btn-prime ion ion-ios-cloud-download-outline ts-3"></a>
+           <button class="ripple btn btn-prime ion ion-camera ts-3" onclick="download(theVideo.snap())">Capture</button>
+           <a id="dBtn" href="#" download="selfie" class="ripple btn btn-prime ion ion-ios-cloud-download-outline ts-3">
+               <button>download</button>
+           </a>
        </div>
         <div class="col-6">
             <video src="" id="theVideo" autoplay></video>
